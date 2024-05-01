@@ -1,3 +1,5 @@
+let tg = window.Telegram.WebApp;
+tg.expand()
 let buttonGetSignal = document.getElementById("get-signal");
 let loadingSignal = document.getElementById("loading");
 let screenStart = document.getElementById("screenStart");
